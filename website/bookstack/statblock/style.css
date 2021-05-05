@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "MrEaves";
+  src: url("MrEavesSmallCaps.otf");
+}
+
+@font-face {
+  font-family: "ScalySans";
+  src: url("ScalySans.otf");
+}
+@font-face {
+  font-family: "ScalySans";
+  unicode-range: U+0030-0039;
+  src: url("ScalySansCaps.otf");
+}
+@font-face {
+  font-family: "ScalySans";
+  font-style: italic;
+  src: url("ScalySansItalic.otf");
+}
+
+@font-face {
+  font-family: "ScalySans";
+  font-weight: bold;
+  src: url("ScalySansBold.otf");
+}
+@font-face {
+  font-family: "ScalySans";
+  font-weight: bold;
+  font-style: italic;
+  src: url("ScalySansBoldItalic.otf");
+}
+@font-face {
+  font-family: "ScalySansCaps";
+  src: url("ScalySansCaps.otf");
+}
+
+div.statBlock {
+  font-family: "ScalySans";
+  font-size: 11pt;
+  line-height: 1.1;
+  color: black;
+
+  padding: 0.5em;
+
+  column-count: 2;
+  column-fill: auto;
+
+  background-image: url(stat-bg.png);
+  border-style: solid;
+  border-image: url(stat-border.png);
+  border-image-slice: 17;
+  border-image-outset: 3px;
+  border-width: 6px;
+  box-shadow: 1px 4px 14px #888;
+  background-position: center;
+}
+
+div.statBlock h2 {
+  font-family: "MrEaves";
+  font-size: 1.8em;
+  font-weight: bold;
+  line-height: 1.0;
+  color: #0D3C5A;
+  margin: 0;
+}
+
+div.statBlock h3 {
+  font-family: "ScalySansCaps";
+  font-size: 1.2em;
+  color: #0D245A;
+  border-bottom: 2px solid #0D3C5A;
+}
+
+div.statBlock hr {
+  background-image: url(stat-divider.svg);
+  height: 6px;
+  margin: 4px 0;
+  background-size: 100% 100%;
+  border: none;
+  background-color: transparent;
+}
+
+div.statBlock table {
+  color: #0D3C5A;
+  border: none;
+  margin: 0 auto;
+}
+div.statBlock table thead {
+  background-color: transparent;
+}
+div.statBlock th {
+  font-weight: bold;
+}
+div.statBlock td, div.statBlock th {
+  border: none;
+  padding: 0 0.4em;
+}
+
+div.statBlock ul {
+  list-style: none;
+  padding: 0 0 0 2ex;
+  text-indent: -2ex;
+  margin: .3em 0;
+}
+div.statBlock hr + ul {
+  color: #0D3C5A;
+  list-style: none;
+  padding: 0 0 0 2ex;
+  text-indent: -2ex;
+  margin: .3em 0;
+}
+
+
+div.statBlock p {
+  margin: 0.8em 0;
+  break-inside: avoid;
+}
+div.statBlock h2 + p {
+  margin: 0 0 0.4em;
+}
+
+
+div.spoiler {
+  background: #333333;
+  border-radius: 0.2em;
+  color: transparent;
+}
+div.spoiler:hover {
+  background: #fff;
+  color: #000;
+}
