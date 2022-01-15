@@ -1,0 +1,112 @@
+<style>
+.table{display: table;}
+.table{
+ font-family: Trebuchet MS, Arial;
+ font-size: 15px;
+}
+.table-caption{display: table-caption;}
+.tr{display: table-row;}
+.td, .th, .inner-td, .outer-td{display: table-cell;}
+.td{padding: 3px;}
+.th{
+ padding: 5px;
+ font-size: 15px;
+ font-weight: bold;
+ margin: auto;
+ background-color: #394669;
+ text-align: center;
+ color: white;
+}
+.fright{float: right;}
+.fleft{float: left;}
+.pdrt{padding-right: 10px;}
+.pdlft{padding-left: 10px;}
+.pdtop{padding-top: 5px;}
+.pdbot{padding-bottom: 5px;}
+.right{text-align: right;}
+.center{text-align: center;}
+.left{text-align: left;}
+.vcenter{vertical-align: middle;}
+.vtop{vertical-align: top;}
+.width100{width: 100%;}
+.width95{width: 95%;}
+.width90{width: 90%;}
+.width80{width: 80%;}
+.width75{width: 75%;}
+.width70{width: 70%;}
+.width65{width: 65%;}
+.width60{width: 60%;}
+.width55{width: 55%;}
+.width50{width: 50%;}
+.width45{width: 45%;}
+.width40{width: 40%;}
+.width35{width: 35%;}
+.width30{width: 30%;}
+.width25{width: 25%;}
+.width20{width: 20%;}
+.width15{width: 15%;}
+.width12{width: 12%;}
+.width10{width: 10%;}
+.width8{width: 8%;}
+.width5{width: 5%;}
+.width2{width: 2%;}
+.z1{z-index: 1;}
+.z2{z-index: 2;}
+.o75{opacity: 0.75;}
+.pointer, .clicky{cursor: pointer;}
+.brd{border: 3px solid black;}
+.brdbtm{border-bottom: 1px solid black;}
+.tblbtm{border-bottom: 1px solid #555555;}
+.tbllft{border-left: 1px solid #555555;}
+.tbltop{border-top: 1px solid #555555;}
+.tblrt{border-right: 1px solid #555555;}
+.addbrd{border: 1px solid #000000;}
+.bcollapse{border-collapse: collapse;}
+.red{color: red;}
+.dkora{color: #4f2600;}
+.green{color: green;}
+.black{color: black;}
+.purple{color: #8B008B;}
+.orange{color: #ff7400;}
+.white{color: white;}
+.blue{color: blue;}
+.grey{color: grey;}
+.wb{background-color: white !important;}
+.gb{background-color: #f0f0f0 !important;}
+.bb{background-color: black !important;}
+.q{cursor: help;}
+.ital{font-style: oblique;}
+.font35{font-size: 35px;}
+.font28{font-size: 28px;}
+.font20{font-size: 20px;}
+.font15{font-size: 15px;}
+.font12{font-size: 12px;}
+.font10{font-size: 10px;}
+.i{font-style: italic;}
+.b{font-weight: bold;}
+.u{text-decoration: underline;}
+.rgrad{background: linear-gradient(to bottom, #fbaaaa 1%,#4c0909 100%);}  
+.ograd{background: linear-gradient(to bottom, #fbd6aa 1%,#c77b42 100%);}
+.ggrad{background: linear-gradient(to bottom, #2d1c1c 0%,#5f7565 50%,#2d4622 51%,#1d0404 100%);}
+.tgrad{background: linear-gradient(to bottom, #ffffff 1%,#234465 100%);}
+.pgrad{background: linear-gradient(to bottom, #ffffff 1%,#782a40 100%);}
+.ygrad{background: linear-gradient(to bottom, #ffffff 1%,#706118 100%);}
+.rntprt{border-top-right-radius: 10px;}
+.rntplt{border-top-left-radius: 10px;}
+.rnbtrt{border-bottom-right-radius: 10px;}
+.rnbtlt{border-bottom-left-radius: 10px;}
+.rntp{border-radius: 10px 10px 0 0;}
+.rnbt{border-radius: 0 0 10px 10px;}
+.rnd{border-radius: 10px;}
+.bshade{box-shadow: 5px 5px 15px #000000;}
+.boshade{box-shadow: 1px 1px 10px 1px black;}
+.tshade{text-shadow: 2px 1px 5px  black;}
+.wbrd{border: 1px solid white;}
+.rg{box-shadow: 1px 1px 10px 2px #7d1111;}
+.pg{box-shadow: 1px 1px 10px 2px #ad7887;}
+.bg{box-shadow: 1px 1px 10px 2px #11117d;}
+.tg{box-shadow: 1px 1px 10px 2px #62627d;}
+.gg{box-shadow: 1px 1px 10px 2px #115d11;}
+.yg{box-shadow: 1px 1px 10px 2px #ffe35b;}
+.sbbg{background-image: url(https://dnd.codeadepts.com/misc/stat-bg.png);}
+</style>
