@@ -109,4 +109,110 @@
 .gg{box-shadow: 1px 1px 10px 2px #115d11;}
 .yg{box-shadow: 1px 1px 10px 2px #ffe35b;}
 .sbbg{background-image: url(https://dnd.codeadepts.com/misc/stat-bg.png);}
+[no-break]{break-inside: avoid;}
+  [rc]{display: table-cell; box-sizing: border-box;}
+  [rc='child20']{width: 20%;}  
+  [rc='child25']{width: 25%;}
+  [rc='child30']{width: 30%;}
+  [rc='child40']{width: 40%;}
+  [rc='child33']{width: 33%;}
+  [rc='child50']{width: 50%;}
+  [rc='child60']{width: 60%;}  
+  [rc='child70']{width: 70%;}
+  [rc-col='2']{column-count:2;}
+  [rc-col='3']{column-count:3;}
+  
+  [skills]{display:table-row;}
+  [skills] > div{border-bottom: 1px solid #555555; display:table-cell; vertical-align: middle;}
+  [skills] > div:nth-child(1){text-align: left; padding: 3px 30px 3px 2px;}
+  [skills] > div:nth-child(2){text-align:center;}
+  [skills] > div:nth-child(3){text-align:center; color: grey; font-style: italic;}
+  [skills] > div:before{float:left; max-width:15px; box-sizing: border-box;}
+  [skills] > div:nth-child(1):before{padding: 0px 30px 0px 3px;}
+  [skills='not-prof'] > div:nth-child(1):before{content:'\25EF'; font-size: .9em;}
+  [skills='hlf-prof'] > div:nth-child(1):before{content:'\25D0'; font-size: 1.3em;}
+  [skills='reg-prof'] > div:nth-child(1):before{content:'\02713'; font-size: 1em;}
+  [skills='exp-prof'] > div:nth-child(1):before{content:'\2705'; font-size: 1em;}
+  [skills='reg-prof'] > div:nth-child(1), [skills='reg-prof'] > div:nth-child(1):before{font-weight: bold;}
+  [skills='exp-prof'] > div:nth-child(1), [skills='exp-prof'] > div:nth-child(1):before{font-weight: 900;}
+  
+  [trait]{text-align: left;}
+  [trait]:before{float: left; padding: 0px 30px 0px 2px; box-sizing:border-box; max-width:15px;}
+  [trait='damage-immunities']:before{ content: '\1F496';}
+  [trait='damage-resistances']:before{ content: '\1F49B';}
+  [trait='damage-vulnerabilties']:before{ content: '\1F494';}
+  [trait='condition-immunities']:before{ content: '\1F48E';}
+  [trait='weapon-proficiencies']:before{ content: '\1F3F9';}
+  [trait='armor-proficiencies']:before{ content: '\1F6E1';}
+  [trait='tool-proficiencies']:before{ content: '\1F528';}
+  [trait='senses']:before{ content: '\1F441';}
+  [trait='languages']:before{ content: '\1F4AD';}
+
+  [stat-section='h2']{
+    font-family: "MrEaves";
+    font-size: 1.8em;
+    font-weight: bold;
+    line-height: 1.0;
+    color: #0D3C5A;
+    margin: 0;
+    background: linear-gradient(to top, rgba(122,122,122,0.65) 0%,rgba(0,0,0,0) 100%);
+  }
+  [stat-section='h3']{
+    font-family: "ScalySansCaps";
+    font-size: 1.5em;
+    color: #0D245A;
+    border-bottom: 2px solid #0D3C5A;
+    text-align: left;
+    background: linear-gradient(to top, rgba(122,122,122,0.65) 0%,rgba(0,0,0,0) 100%);
+  }
+
+  [stat-features]{color: black;}
+  [stat-features] > span:nth-child(1){
+    display: inline-block;
+    font-weight: bold;
+    font-style: italic;
+    break-inside: avoid;
+  }
+  [stat-features] > span:nth-child(2){
+    display: inline-block;
+    margin: 0.8em 0;
+    break-inside: avoid;
+  }
+  .width14{width:14%;}
+  .width16{width:16%;}
+  .table{display: table; box-sizing: border-box;}
+  .text-vert{writing-mode: vertical-lr; text-orientation: upright;}
+  .h100 {height:100%;}
+  
+  @media (max-width : 750px) {
+    .table {font-size: 14px;}
+  }
+  
+  @media (max-width : 500px) {
+    [rc-col] {column-count:1;}
+    [rc] {display: block; width: 100%;}
+  }
+
+  [stat-bio]{color: black; background-color: #efefef;}
+  [stat-bio] > div{display: table-cell; text-align: left; border-bottom: 1px solid #555555; padding: 3px;}
+  [stat-bio] > div:nth-child(1){font-weight: bold; width: 30%;}
+  [stat-bio] > div:nth-child(2){width: 70%;}  
+
+  [stat-attr-header]{
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: auto;
+    background-color: #394669;
+    display: table-row;
+    font-weight: bold;
+    color: white;
+  }
+  [stat-attr-header] > div{display: table-cell;} 
+  [stat-attr-header] > div:nth-child(1){width: 16%;}
+  [stat-attr-header] > div:not(:first-child){width: 14%;}
+  [stat-attr]{display: table-row;}
+  [stat-attr] > div{display: table-cell; color: black; border-bottom: 1px solid #555555; border-left: 1px solid #555555;}  
+  [stat-attr] > div:nth-child(1){width: 16%; background: linear-gradient(to top, rgba(122,122,122,0.65) 0%,rgba(0,0,0,0) 100%);}
+  [stat-attr] > div:not(:first-child){width: 14%; background-color: #efefef;}
 </style>
