@@ -215,4 +215,10 @@
   [stat-attr] > div{display: table-cell; color: black; border-bottom: 1px solid #555555; border-left: 1px solid #555555;}  
   [stat-attr] > div:nth-child(1){width: 16%; background: linear-gradient(to top, rgba(122,122,122,0.65) 0%,rgba(0,0,0,0) 100%);}
   [stat-attr] > div:not(:first-child){width: 14%; background-color: #efefef;}
+  [mattias='token'] img{
+    content: url('https://dnd.codeadepts.com/5e/uploads/images/gallery/2023-09/mattias-t-token.webp');
+  }
+  [mattias='token'] img:hover{
+     content: url('https://dnd.codeadepts.com/5e/uploads/images/gallery/2023-09/mattias-token.webp');
+  } 
 </style>
