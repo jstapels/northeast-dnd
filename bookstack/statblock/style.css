@@ -35,6 +35,7 @@
 }
 
 div.statBlock {
+  clear: both;
   font-family: "ScalySans";
   font-size: 11pt;
   line-height: 1.1;
