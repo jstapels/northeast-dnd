@@ -1,0 +1,146 @@
+@font-face {
+  font-family: "MrEaves";
+  src: url("MrEavesSmallCaps.otf");
+}
+
+@font-face {
+  font-family: "ScalySans";
+  src: url("ScalySans.otf");
+}
+@font-face {
+  font-family: "ScalySans";
+  unicode-range: U+0030-0039;
+  src: url("ScalySansCaps.otf");
+}
+@font-face {
+  font-family: "ScalySans";
+  font-style: italic;
+  src: url("ScalySansItalic.otf");
+}
+
+@font-face {
+  font-family: "ScalySans";
+  font-weight: bold;
+  src: url("ScalySansBold.otf");
+}
+@font-face {
+  font-family: "ScalySans";
+  font-weight: bold;
+  font-style: italic;
+  src: url("ScalySansBoldItalic.otf");
+}
+@font-face {
+  font-family: "ScalySansCaps";
+  src: url("ScalySansCaps.otf");
+}
+
+div.oneDnd {
+  clear: both;
+  font-family: "ScalySans";
+  font-size: 11pt;
+  line-height: 1.1;
+  color: #235;
+
+  width: 104ex;
+  padding: 0.5em;
+
+  column-count: 2;
+
+  background-color: #e8e8ff;
+  border-style: double;
+  border-width: 3px;
+  border-radius: 6px;
+  box-shadow: 1px 4px 14px #888;
+}
+
+/*
+div.oneDnd * {
+  border: 1px solid red;
+}
+*/
+
+div.oneDnd h2 {
+  font-size: 1.6em;
+  font-variant: small-caps;
+  font-weight: bold;
+  line-height: 1.0;
+  color: #0D3C5A;
+  margin: 0 0 2px;
+  border-bottom: 1px solid #0D245A;
+}
+
+div.oneDnd h2 + i {
+  color: #999;
+}
+
+div.oneDnd h3 {
+  font-size: 1.2em;
+  font-variant: small-caps;
+  font-weight: bold;
+  line-height: 1.0;
+  margin: 1ex 0 2px;
+  border-bottom: 1px solid #0D245A;
+}
+
+div.oneDnd ul {
+  display: block;
+  padding: 1ex 0;
+  margin: 0;
+
+  list-style: none;
+}
+
+div.oneDnd li ul {
+  float: right;
+  width: 50%;
+  padding: 0;
+}
+
+div.oneDnd div.abilities ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 6px;
+  row-gap: 1px;
+}
+
+div.oneDnd div.abilities ul li {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  white-space: nowrap;
+  font-style: normal;
+  text-align: center;
+}
+
+div.oneDnd div.abilities ul li:nth-child(-n + 3) {
+  border: none;
+}
+
+div.oneDnd div.abilities ul li strong {
+  font-weight: normal;
+  font-size: 0.7em;
+  grid-column-start: 3;
+  text-transform: uppercase;
+  color: #999;
+}
+
+div.oneDnd div.abilities ul li strong + strong {
+  grid-column-start: span 1;
+}
+
+div.oneDnd div.abilities ul li i {
+  font-style: normal;
+  padding: 2px
+}
+
+div.oneDnd div.abilities ul li i:first-child {
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+div.oneDnd div.abilities ul li i:nth-child(-n + 2) {
+  background-color: #0352;
+}
+
+div.oneDnd div.abilities ul li i + i {
+  background-color: #0353;
+}
