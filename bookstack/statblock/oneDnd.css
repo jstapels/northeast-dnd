@@ -96,14 +96,14 @@ div.oneDnd li ul {
   padding: 0;
 }
 
-div.oneDnd div.abilities ul {
+div.oneDnd blockquote ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 6px;
   row-gap: 1px;
 }
 
-div.oneDnd div.abilities ul li {
+div.oneDnd blockquote ul li {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   white-space: nowrap;
@@ -111,11 +111,11 @@ div.oneDnd div.abilities ul li {
   text-align: center;
 }
 
-div.oneDnd div.abilities ul li:nth-child(-n + 3) {
+div.oneDnd blockquote ul li:nth-child(-n + 3) {
   border: none;
 }
 
-div.oneDnd div.abilities ul li strong {
+div.oneDnd blockquote ul li strong {
   font-weight: normal;
   font-size: 0.7em;
   grid-column-start: 3;
@@ -123,24 +123,24 @@ div.oneDnd div.abilities ul li strong {
   color: #999;
 }
 
-div.oneDnd div.abilities ul li strong + strong {
+div.oneDnd blockquote ul li strong + strong {
   grid-column-start: span 1;
 }
 
-div.oneDnd div.abilities ul li em {
+div.oneDnd blockquote ul li em {
   font-style: normal;
   padding: 2px
 }
 
-div.oneDnd div.abilities ul li em:first-child {
+div.oneDnd blockquote ul li em:first-child {
   font-variant: small-caps;
   font-weight: bold;
 }
 
-div.oneDnd div.abilities ul li em:nth-child(-n + 2) {
+div.oneDnd blockquote ul li em:nth-child(-n + 2) {
   background-color: #0352;
 }
 
-div.oneDnd div.abilities ul li em + em {
+div.oneDnd blockquote ul li em + em {
   background-color: #0353;
 }
