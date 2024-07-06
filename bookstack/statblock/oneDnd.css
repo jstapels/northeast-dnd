@@ -127,20 +127,20 @@ div.oneDnd div.abilities ul li strong + strong {
   grid-column-start: span 1;
 }
 
-div.oneDnd div.abilities ul li i {
+div.oneDnd div.abilities ul li em {
   font-style: normal;
   padding: 2px
 }
 
-div.oneDnd div.abilities ul li i:first-child {
+div.oneDnd div.abilities ul li em:first-child {
   font-variant: small-caps;
   font-weight: bold;
 }
 
-div.oneDnd div.abilities ul li i:nth-child(-n + 2) {
+div.oneDnd div.abilities ul li em:nth-child(-n + 2) {
   background-color: #0352;
 }
 
-div.oneDnd div.abilities ul li i + i {
+div.oneDnd div.abilities ul li em + em {
   background-color: #0353;
 }
