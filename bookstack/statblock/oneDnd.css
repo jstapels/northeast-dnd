@@ -53,14 +53,14 @@ div.oneDnd {
   box-shadow: 1px 4px 14px #888;
 }
 
-/*
-div.oneDnd * {
-  border: 1px solid red;
+div.ondDnd p {
+  padding: 0;
+  margin: 0;
 }
-*/
 
-div.oneDnd h2 {
-  font-size: 1.6em;
+div.oneDnd h2, h3, h4 {
+  font-family: inherit;
+  border: 1px solid red;
   font-variant: small-caps;
   font-weight: bold;
   line-height: 1.0;
@@ -69,17 +69,17 @@ div.oneDnd h2 {
   border-bottom: 1px solid #0D245A;
 }
 
-div.oneDnd h2 + i {
+div.oneDnd h2 {
+  font-size: 1.6em;
+}
+
+div.oneDnd h2 + i, div.oneDnd h2 + p + i {
   color: #999;
 }
 
 div.oneDnd h3 {
   font-size: 1.2em;
-  font-variant: small-caps;
-  font-weight: bold;
-  line-height: 1.0;
   margin: 1ex 0 2px;
-  border-bottom: 1px solid #0D245A;
 }
 
 div.oneDnd ul {
