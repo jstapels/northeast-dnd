@@ -59,7 +59,7 @@ div.oneDnd p {
   margin-bottom: 1em;
 }
 
-div.oneDnd h2, h3, h4 {
+div.oneDnd h2, div.oneDnd h3, div.oneDnd h4 {
   font-family: inherit;
   font-variant: small-caps;
   font-weight: bold;
