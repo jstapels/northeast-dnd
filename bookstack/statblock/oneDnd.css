@@ -55,7 +55,8 @@ div.oneDnd {
 
 div.ondDnd p {
   padding: 0;
-  margin: 0 !important;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 div.oneDnd h2, h3, h4 {
