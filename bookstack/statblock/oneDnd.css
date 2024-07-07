@@ -53,11 +53,6 @@ div.oneDnd {
   box-shadow: 1px 4px 14px #888;
 }
 
-div.ondDnd p {
-  padding: 0;
-  margin: 0 !important;
-}
-
 div.oneDnd h2, h3, h4 {
   font-family: inherit;
   font-variant: small-caps;
@@ -70,6 +65,11 @@ div.oneDnd h2, h3, h4 {
 
 div.oneDnd h2 {
   font-size: 1.6em;
+}
+
+div.ondDnd h2 + p {
+  padding: 0;
+  margin: 0 !important;
 }
 
 div.oneDnd h2 + em, div.oneDnd h2 + p em {
