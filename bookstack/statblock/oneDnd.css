@@ -60,7 +60,6 @@ div.ondDnd p {
 
 div.oneDnd h2, h3, h4 {
   font-family: inherit;
-  border: 1px solid red;
   font-variant: small-caps;
   font-weight: bold;
   line-height: 1.0;
