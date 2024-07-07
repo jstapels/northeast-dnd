@@ -67,6 +67,7 @@ div.oneDnd h2, h3, h4 {
   color: #0D3C5A;
   margin: 0 0 2px;
   border-bottom: 1px solid #0D245A;
+  break-after: avoid;
 }
 
 div.oneDnd h2 {
@@ -92,6 +93,7 @@ div.oneDnd ul {
   margin: 0;
 
   list-style: none;
+  break-inside: avoid;
 }
 
 div.oneDnd li ul {
