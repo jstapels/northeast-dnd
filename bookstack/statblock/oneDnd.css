@@ -67,9 +67,9 @@ div.oneDnd h2 {
   font-size: 1.6em;
 }
 
-div.ondDnd h2 + p {
+div.oneDnd h2 + p {
   padding: 0;
-  margin: 0 !important;
+  margin: 0;
 }
 
 div.oneDnd h2 + em, div.oneDnd h2 + p em {
