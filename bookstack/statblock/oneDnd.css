@@ -96,6 +96,17 @@ div.oneDnd li ul {
   padding: 0;
 }
 
+div.oneDnd blockquote {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+div.oneDnd blockquote::before {
+  content: none;
+}
+
 div.oneDnd blockquote ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
