@@ -47,6 +47,8 @@ div.oneDnd {
   column-count: 2;
 
   background-color: #e8e8ff;
+  background-image: url(stat-bg.png);
+  background-position: center;
   border-style: double;
   border-width: 3px;
   border-radius: 6px;
