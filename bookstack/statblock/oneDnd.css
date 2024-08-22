@@ -60,6 +60,7 @@ div.oneDnd p {
   padding: 0;
   margin-top: .3em;
   margin-bottom: 1em;
+  break-inside: avoid;
 }
 
 div.oneDnd h2, div.oneDnd h3, div.oneDnd h4 {
@@ -75,6 +76,7 @@ div.oneDnd h2, div.oneDnd h3, div.oneDnd h4 {
 
 div.oneDnd h2 {
   font-size: 1.6em;
+  column-span: all;
 }
 
 div.oneDnd h2 + p {
