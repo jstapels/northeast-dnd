@@ -119,6 +119,7 @@
   [rc='child50']{width: 50%;}
   [rc='child60']{width: 60%;}  
   [rc='child70']{width: 70%;}
+  [rc='ff']{margin-right: 10px;}
   [rc-col='2']{column-count:2;}
   [rc-col='3']{column-count:3;}
   
