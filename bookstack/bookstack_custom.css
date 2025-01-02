@@ -119,7 +119,7 @@
 .fire-brd{border: 3px solid #ffb68a;}
 .water-brd{border: 3px solid #a1bccd;}
 .air-brd{border: 3px solid #cce5c4;}
-.light-brd{border: 3px solid #ffff00;}
+.light-brd{border: 3px solid #ffffff;}
 .dark-brd{border: 3px solid #010101;}
 
 .earth-glow{box-shadow: 1px 1px 10px 2px #0f3f18;}
@@ -127,7 +127,7 @@
 .water-glow{box-shadow: 1px 1px 10px 2px #315063;}
 .air-glow{box-shadow: 1px 1px 10px 2px #8dffe1;}
 .light-glow{box-shadow: 1px 1px 10px 2px #dfdfdf;}
-.dark-glow{box-shadow: 1px 1px 10px 10px #121212;}
+.dark-glow{box-shadow: 1px 1px 25px 10px #010101;}
 .sbbg{background-image: url(https://dnd.codeadepts.com/misc/stat-bg.png);}
 [no-break]{break-inside: avoid;}
   [rc]{display: table-cell; box-sizing: border-box;}
