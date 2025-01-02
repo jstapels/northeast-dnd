@@ -71,6 +71,14 @@
 .white{color: white;}
 .blue{color: blue;}
 .grey{color: grey;}
+
+.light{color: #dfdfdf; text-shadow 1px 1px 5px #ffff00;}
+.dark{color: #010101; text-shadow 1px 1px 8px #ffffff;}
+.earth{color: #78ff70; text-shadow 1px 1px 5px #993800;}
+.air{color: #8dffe1; text-shadow 1px 1px 5px #cce5c4;}
+.fire{color: #ffb68a; text-shadow 1px 1px 5px #ffff00;}
+.water{color: #a1bccd; text-shadow 1px 1px 5px #315063;}
+
 .wb{background-color: white !important;}
 .gb{background-color: #f0f0f0 !important;}
 .bb{background-color: black !important;}
@@ -104,10 +112,14 @@
 .wbrd{border: 1px solid white;}
 .rg{box-shadow: 1px 1px 10px 2px #7d1111;}
 .pg{box-shadow: 1px 1px 10px 2px #ad7887;}
-.bg{box-shadow: 1px 1px 10px 2px #11117d;}
+.blue-glow{box-shadow: 1px 1px 10px 2px #11117d;}
 .tg{box-shadow: 1px 1px 10px 2px #62627d;}
-.gg{box-shadow: 1px 1px 10px 2px #115d11;}
-.yg{box-shadow: 1px 1px 10px 2px #ffe35b;}
+.earth-glow{box-shadow: 1px 1px 10px 2px #0f3f18;}
+.fire-glow{box-shadow: 1px 1px 10px 2px #910000;}
+.water-glow{box-shadow: 1px 1px 10px 2px #315063;}
+.air-glow{box-shadow: 1px 1px 10px 2px #8dffe1;}
+.light-glow{box-shadow: 1px 1px 10px 2px #dfdfdf;}
+.dark-glow{box-shadow: 1px 1px 10px 2px #121212;}
 .sbbg{background-image: url(https://dnd.codeadepts.com/misc/stat-bg.png);}
 [no-break]{break-inside: avoid;}
   [rc]{display: table-cell; box-sizing: border-box;}
