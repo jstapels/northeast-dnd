@@ -72,12 +72,12 @@
 .blue{color: blue;}
 .grey{color: grey;}
 
-.light{color: #dfdfdf; text-shadow 1px 1px 5px #ffff00;}
-.dark{color: #010101; text-shadow 1px 1px 8px #ffffff;}
-.earth{color: #78ff70; text-shadow 1px 1px 5px #993800;}
-.air{color: #8dffe1; text-shadow 1px 1px 5px #cce5c4;}
-.fire{color: #ffb68a; text-shadow 1px 1px 5px #ffff00;}
-.water{color: #a1bccd; text-shadow 1px 1px 5px #315063;}
+.light{color: #dfdfdf; text-shadow: 1px 1px 5px #ffff00;}
+.dark{color: #010101; text-shadow: 1px 1px 8px #ffffff;}
+.earth{color: #78ff70; text-shadow: 1px 1px 5px #993800;}
+.air{color: #8dffe1; text-shadow: 1px 1px 5px #cce5c4;}
+.fire{color: #ffb68a; text-shadow: 1px 1px 5px #ffff00;}
+.water{color: #a1bccd; text-shadow: 1px 1px 5px #315063;}
 
 .wb{background-color: white !important;}
 .gb{background-color: #f0f0f0 !important;}
