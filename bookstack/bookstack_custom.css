@@ -73,7 +73,7 @@
 .grey{color: grey;}
 
 .light{color: #dfdfdf; text-shadow: 1px 1px 5px #ffff00;}
-.dark{color: #010101; text-shadow: 1px 1px 8px #ffffff;}
+.dark{color: #010101; text-shadow: 0 0 1px #290065, 0 0 1px #171527, 0 0 1px #9342d1, 0 0 1px #9c67f1, 1px 1px 15px #be9bff;}
 .earth{color: #78ff70; text-shadow: 1px 1px 5px #993800;}
 .air{color: #8dffe1; text-shadow: 1px 1px 5px #cce5c4;}
 .fire{color: #ffb68a; text-shadow: 1px 1px 5px #ffff00;}
