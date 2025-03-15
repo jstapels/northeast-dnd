@@ -13,7 +13,7 @@ figure {
   border-radius: 1em;
   overflow: hidden;
 }
-@media screen (min-width: 800px) {
+@media (min-width: 800px) {
   figure.right {
     width: 16em;
     float: right;
