@@ -15,12 +15,12 @@ figure {
 }
 @media (min-width: 800px) {
   figure.right {
-    width: 16em;
+    width: 33%;
     float: right;
     margin: 0 0 1em 1em;
   }
   figure.left {
-    width: 16em;
+    width: 33%;
     float: left;
     margin: 0 1em 1em 0;
   }
