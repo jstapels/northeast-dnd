@@ -5,3 +5,31 @@
 
 /* Rob's stuff */
 @import url("bookstack_custom.css");
+
+/* Add support for a nicely styled image. */
+figure {
+  background: black;
+  color: white;
+  border-radius: 1em;
+  overflow: hidden;
+}
+@media screen (min-width: 800px) {
+  figure.right {
+    width: 16em;
+    float: right;
+    margin: 0 0 1em 1em;
+  }
+  figure.left {
+    width: 16em;
+    float: left;
+    margin: 0 1em 1em 0;
+  }
+}
+figure img {
+  display: block;
+}
+figcaption {
+  text-align: center;
+  padding: 0.25em;
+  margin: 0;
+}
