@@ -13,8 +13,19 @@ figure {
   border-radius: 1em;
   overflow: hidden;
 }
+figure img {
+  display: block;
+}
+figure figcaption {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 0.25em;
+  margin: 0;
+}
+
 @media (min-width: 800px) {
-  figure.center {
+  figure.middle {
     width: 62%;
     margin: 0 auto 1em;
   }
@@ -28,12 +39,4 @@ figure {
     float: left;
     margin: 0 1em 1em 0;
   }
-}
-figure img {
-  display: block;
-}
-figcaption {
-  text-align: center;
-  padding: 0.25em;
-  margin: 0;
 }
