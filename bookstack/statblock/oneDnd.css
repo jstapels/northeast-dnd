@@ -90,7 +90,7 @@ div.oneDnd h2 + p {
 }
 
 div.oneDnd em + s {
-  font-style: italic;
+  text-decoration: none;
   color: #777;
 }
 
