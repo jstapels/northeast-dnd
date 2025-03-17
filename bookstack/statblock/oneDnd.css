@@ -183,17 +183,17 @@ div.oneDnd blockquote ul li em:first-child {
 }
 
 div.oneDnd blockquote ul li em:nth-child(-n + 2) {
-  background-color: #dfd5d2;
+  background-color: #c7cfdd;
 }
 div.oneDnd blockquote ul li em + em {
-  background-color: #cfc3c3;
+  background-color: #b8bec7;
 }
 
 div.oneDnd blockquote ul li:nth-child(n+7) em:nth-child(-n + 2) {
-  background-color: #cbccc7;
+  background-color: #bac2be;
 }
 div.oneDnd blockquote ul li:nth-child(n+7) em + em {
-  background-color: #c8bdc0;
+  background-color: #a8adbd;
 }
 
 div.oneDnd.monster blockquote ul li em:nth-child(-n + 2) {
