@@ -43,8 +43,7 @@ div.oneDnd {
 
   padding: 0.5em;
 
-  column-count: auto;
-  column-width: 320px;
+  columns: auto 22em;
 
   background-color: #F8F8FF;
   background-image: url("stat-bg.png");
@@ -54,6 +53,13 @@ div.oneDnd {
   border-width: 3px;
   border-radius: 6px;
   box-shadow: 1px 4px 14px #888;
+
+  margin: 0 auto;
+  max-width: 96%;
+}
+
+div.oneDnd.single {
+  width:28em;
 }
 
 div.oneDnd p {
