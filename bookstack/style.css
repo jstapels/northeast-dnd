@@ -6,6 +6,10 @@
 /* Rob's stuff */
 @import url("bookstack_custom.css");
 
+.clear {
+  clear: both;
+}
+
 /* Add support for a nicely styled image. */
 figure {
   background: black;
