@@ -89,7 +89,7 @@ div.oneDnd h2 + p {
   margin: 0;
 }
 
-div.oneDnd em + s {
+div.oneDnd em > s {
   text-decoration: none;
   color: #777;
 }
