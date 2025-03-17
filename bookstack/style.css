@@ -14,6 +14,10 @@ figure {
   overflow: hidden;
 }
 @media (min-width: 800px) {
+  figure.center {
+    width: 62%;
+    margin: 0 auto 1em;
+  }
   figure.right {
     width: 33%;
     float: right;
