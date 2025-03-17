@@ -1,42 +1,53 @@
 @font-face {
-  font-family: "MrEaves";
-  src: url("MrEavesSmallCaps.otf");
+    font-family: 'Tiamat Condensed SC Regular';
+    src: url("tiamatcondensedsc-regular-webfont.woff2") format("woff2")
 }
 
 @font-face {
-  font-family: "ScalySans";
-  src: url("ScalySans.otf");
-}
-@font-face {
-  font-family: "ScalySans";
-  unicode-range: U+0030-0039;
-  src: url("ScalySansCaps.otf");
-}
-@font-face {
-  font-family: "ScalySans";
-  font-style: italic;
-  src: url("ScalySansItalic.otf");
+    font-family: 'Scala Sans Offc';
+    src: url("ScalaSansOffc-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal
 }
 
 @font-face {
-  font-family: "ScalySans";
-  font-weight: bold;
-  src: url("ScalySansBold.otf");
+    font-family: 'Scala Sans Offc';
+    src: url("ScalaSansOffc.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal
 }
+
 @font-face {
-  font-family: "ScalySans";
-  font-weight: bold;
-  font-style: italic;
-  src: url("ScalySansBoldItalic.otf");
+    font-family: 'Scala Sans Offc';
+    src: url("ScalaSansOffc-BoldIta.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic
 }
+
 @font-face {
-  font-family: "ScalySansCaps";
-  src: url("ScalySansCaps.otf");
+    font-family: 'Scala Sans Offc';
+    src: url("ScalaSansOffc-Ita.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic
+}
+
+@font-face {
+    font-family: 'Scala Sans SC Offc';
+    src: url("ScalaSansScOffc.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Scala Sans SC Offc';
+    src: url("ScalaSansScOffc-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal
 }
 
 div.oneDnd {
   clear: both;
-  font-family: "ScalySans";
+  font-family: "Scala Sans Offc";
   font-size: 11pt;
   line-height: 1.1;
   color: #235;
